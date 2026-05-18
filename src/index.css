@@ -13,11 +13,11 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 8%;
 
-    --primary: 45 85% 48%;
+    --primary: 33 48% 50%;
     --primary-foreground: 0 0% 6%;
 
-    --secondary: 150 25% 18%;
-    --secondary-foreground: 45 85% 78%;
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 33 48% 70%;
 
     --muted: 0 0% 93%;
     --muted-foreground: 0 0% 45%;
@@ -35,14 +35,14 @@
     --radius: 2px;
 
     /* Brand colors */
-    --gold: #c9a84c;
-    --gold-light: #e8cc7a;
-    --gold-dark: #9c7b2f;
-    --green-dark: #0d1a2e;
-    --green-mid: #142240;
-    --black: #080c14;
-    --white: #f4f5f7;
-    --gray-warm: #6b6f7a;
+    --gold: #b8924a;
+    --gold-light: #d4a96a;
+    --gold-dark: #8a6830;
+    --green-dark: #1a1a1a;
+    --green-mid: #252525;
+    --black: #111111;
+    --white: #f2f0ec;
+    --gray-warm: #7a7470;
   }
 }
 
