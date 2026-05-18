@@ -1,4 +1,4 @@
-const heroImage = 'https://cdn.poehali.dev/projects/fe7081a4-a58f-442b-8dd6-abc2687e9ae0/files/4257baee-7c1d-4de6-9e8f-6ae3a73ad329.jpg';
+const heroImage = 'https://cdn.poehali.dev/projects/fe7081a4-a58f-442b-8dd6-abc2687e9ae0/files/4e5ce6ee-c49f-43a8-a8f3-7511e88b3086.jpg';
 
 export default function Hero() {
   const handleScroll = (href: string) => {
@@ -29,7 +29,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pt-24 pb-16">
         <div className="max-w-3xl">
           <div className="animate-fade-in" style={{ animationDelay: '0.1s', opacity: 0 }}>
-            <span className="section-label">Профессиональная защита</span>
+            <span className="section-label">Защита прав военнослужащих</span>
           </div>
 
           <h1
@@ -41,13 +41,13 @@ export default function Hero() {
               opacity: 0,
             }}
           >
-            Право на вашей
+            Ваши права —
             <br />
             <em
               className="not-italic font-light"
               style={{ color: 'var(--gold)' }}
             >
-              стороне.
+              под защитой.
             </em>
           </h1>
 
@@ -60,7 +60,7 @@ export default function Hero() {
               opacity: 0,
             }}
           >
-            Юридическая фирма КОНКОР — комплексная правовая поддержка бизнеса и частных лиц. Опыт, точность, результат.
+            Специализированная юридическая помощь военнослужащим, ветеранам боевых действий и членам их семей. Добиваемся выплат, льгот и восстановления нарушенных прав.
           </p>
 
           <div
@@ -71,7 +71,7 @@ export default function Hero() {
               className="btn-gold"
               onClick={() => handleScroll('#consult')}
             >
-              Записаться на консультацию
+              Бесплатная консультация
             </button>
             <button
               className="btn-outline-gold"
@@ -91,9 +91,9 @@ export default function Hero() {
             }}
           >
             {[
-              { num: '15+', label: 'лет на рынке' },
-              { num: '2 400+', label: 'выигранных дел' },
-              { num: '98%', label: 'довольных клиентов' },
+              { num: '1 200+', label: 'дел военнослужащих' },
+              { num: '94%', label: 'положительных решений' },
+              { num: '15+', label: 'лет практики' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div

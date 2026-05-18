@@ -41,20 +41,12 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <button onClick={() => handleNav('#home')} className="flex items-center gap-3">
-            <div className="flex flex-col items-start">
-              <span
-                className="text-2xl font-cormorant font-bold tracking-[0.15em] uppercase"
-                style={{ color: 'var(--gold)', lineHeight: 1 }}
-              >
-                КОНКОР
-              </span>
-              <span
-                className="text-[8px] tracking-[0.35em] uppercase font-golos font-medium"
-                style={{ color: 'rgba(248,246,242,0.5)', letterSpacing: '0.35em' }}
-              >
-                Юридическая фирма
-              </span>
-            </div>
+            <img
+              src="https://cdn.poehali.dev/files/d53f1179-cd48-4e60-811e-432de8ef8b59.png"
+              alt="КОНКОР"
+              className="h-12 w-auto"
+              style={{ filter: 'brightness(0) invert(1) sepia(1) saturate(2) hue-rotate(5deg)', opacity: 0.95 }}
+            />
           </button>
 
           {/* Desktop nav */}
