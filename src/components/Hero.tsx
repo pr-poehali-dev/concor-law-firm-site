@@ -1,4 +1,4 @@
-const heroImage = 'https://cdn.poehali.dev/projects/fe7081a4-a58f-442b-8dd6-abc2687e9ae0/files/7e88113e-ebd0-4d67-b557-29c051b77eb3.jpg';
+const heroImage = 'https://cdn.poehali.dev/projects/fe7081a4-a58f-442b-8dd6-abc2687e9ae0/files/a39f2779-7f28-4f0e-ba14-d3f7ae0dd621.jpg';
 
 export default function Hero() {
   const handleScroll = (href: string) => {
@@ -17,7 +17,7 @@ export default function Hero() {
         style={{ backgroundImage: `url(${heroImage})` }}
       />
       {/* Overlays */}
-      <div className="absolute inset-0" style={{ background: 'linear-gradient(105deg, rgba(17,17,17,0.96) 0%, rgba(26,26,26,0.88) 55%, rgba(17,17,17,0.82) 100%)' }} />
+      <div className="absolute inset-0" style={{ background: 'linear-gradient(105deg, rgba(8,15,10,0.97) 0%, rgba(13,31,20,0.87) 55%, rgba(8,15,10,0.80) 100%)' }} />
       <div className="noise-texture absolute inset-0 opacity-30" />
 
       {/* Gold vertical accent line */}
