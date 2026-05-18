@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Icon from '@/components/ui/icon';
+import LogoKonkor from '@/components/ui/LogoKonkor';
 
 const navItems = [
   { label: 'Главная', href: '#home' },
@@ -40,13 +41,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <button onClick={() => handleNav('#home')} className="flex items-center gap-3">
-            <img
-              src="https://cdn.poehali.dev/files/d53f1179-cd48-4e60-811e-432de8ef8b59.png"
-              alt="КОНКОР"
-              className="h-12 w-auto"
-              style={{ filter: 'brightness(0) invert(1) sepia(1) saturate(2) hue-rotate(5deg)', opacity: 0.95 }}
-            />
+          <button onClick={() => handleNav('#home')} className="flex items-center">
+            <LogoKonkor height={52} />
           </button>
 
           {/* Desktop nav */}

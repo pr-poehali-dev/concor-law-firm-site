@@ -60,9 +60,9 @@ export default {
 				gold: '#C9A84C',
 				'gold-light': '#E8CC7A',
 				'gold-dark': '#9C7B2F',
-				'konkor-green': '#1A3028',
-				'konkor-green-mid': '#234232',
-				'konkor-black': '#0E0E0E',
+				'konkor-green': '#0d1a2e',
+				'konkor-green-mid': '#142240',
+				'konkor-black': '#080c14',
 				'konkor-white': '#F8F6F2',
 			},
 			borderRadius: {
